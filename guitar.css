@@ -1,7 +1,6 @@
 :root{
     --clr-text-primary:#171A21;
     --clr-text-secondary:#8d8d8d;
-    --clr-accent:#ffe91e;
     --font-family:Heebo,sans-serif;
   }
 *,*::after,*::before{
@@ -85,7 +84,7 @@ body{
     grid-template-rows: 1fr 1fr 1fr;
     margin-top: 25px;
     margin-left: 80px;
-    animation: bob 4s ease;
+    animation: bob 2.5s ease;
 }
 @keyframes bob{
     0%{

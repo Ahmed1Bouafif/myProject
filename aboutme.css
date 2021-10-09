@@ -24,7 +24,6 @@ p{
 
 body{
     font-family:  var(--font-family);
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwAvTzbgA5-vacKv2xy7yvseAstHzFQ1tuGzKV6Ij2BF_kmmPvp4LEEqlkHQvb_tw8YdM&usqp=CAU");
     background-size: cover;
     background-repeat: no-repeat;
     max-height: 100vh;
@@ -78,23 +77,7 @@ body{
     font-size: 1.4rem;
 }
 
-#all{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin-top: 25px;
-    margin-left: 80px;
-    animation: bob 2.5s ease;
-}
-@keyframes bob{
-    0%{
-        margin-top:-999px
-    }
-    100%{
-        margin-top: 25px;
-        margin-left: 80px;
-    }
-}
+
 iframe{
     height: 200px;
     width:400px;
@@ -105,4 +88,81 @@ iframe{
 }
 iframe:hover{
     opacity: 1;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+    padding: 1.5rem 0;
+    background:grey;
+    
+}
+
+#social-links{
+    display: flex;
+    gap: 2rem;
+}
+.social-link{
+    font-size: 2rem;
+}
+form{
+    display: flex;
+    border: 2px solid var(--clr-text-primary);
+}
+
+#email,#email+button{
+    height: 2.5rem;
+    border: none;
+    font-family: var(--font-family);
+}
+#email{
+    width: 18.5rem;
+    padding-left: 1rem;
+}
+#email+button{
+    width: 2.5rem;
+    font-weight: bold;
+    background: var(--clr-text-primary);
+    color: #fff;
+    transition: color .5s ease;
+    transition: background-color .5s ease;
+}
+#email+button:hover{
+    background: transparent;
+    color: var(--clr-text-primary);
+}
+.desc{
+    letter-spacing: 5px;
+}
+
+.profile>img{
+    width: 500px;
+    height: 395px;
+}
+
+#prof{
+    display: flex;
+    gap :5rem
+}
+.profile2>p{
+    letter-spacing: 10px;
+    font-weight: 900;
+    max-width: 800px;
+    font-size: xx-large;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px rgb(112, 16, 16), 0 0 25px rgb(197, 140, 119), 0 0 5px yellow;
+    
+    
+}
+.profile,.profile2{
+    flex-direction: row;
+    row-gap: 5rem;
+    justify-content: space-between;
+    
 }
