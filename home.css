@@ -1,0 +1,122 @@
+:root{
+    --clr-text-primary:#171A21;
+    --clr-text-secondary:#8d8d8d;
+    --clr-accent:#ffe91e;
+    --font-family:Heebo,sans-serif;
+  }
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+button,a{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: var(--clr-text-primary);
+}
+li{
+    list-style-type: none;
+}
+p{
+    line-height: 5rem;
+}
+
+body{
+    font-family:  var(--font-family);
+    background-image: url("https://66.media.tumblr.com/tumblr_mb1126tdwh1rueuwoo1_500.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#header{
+    background:url("./imgs/bg.png");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: bottom 100% left 10%;
+    background-color: rgb(136, 132, 132);
+    max-height: 90px;
+}
+#navbar{
+    height: 5rem;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+#nav-items{
+    margin-left: auto;
+    gap: 8rem;
+    margin-right: 5rem;
+}
+#header,#main,#footer{
+    padding: 0 9rem;
+}
+
+#navbar,#page,#nav-items{
+    display: flex;
+}
+
+.nav-item{
+    text-transform: capitalize;
+    font-weight: 450;
+    font-size: 1.3rem;
+    transition: color .3s ease;
+}
+.nav-item:hover a{
+    opacity: .8;
+}
+#page{
+    align-items: center;
+    gap: .3rem;
+}
+#logo{
+    font-size: 2.5rem;
+}
+#page-name{
+    font-weight: 900;
+    text-transform: uppercases;
+    font-size: 1.4rem;
+}
+#main{
+    margin-top: 70px;
+}
+iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+}
+.home{
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    max-width: 1000px;
+    text-decoration-style: double;
+    text-transform: capitalize;
+    margin-top: 30px;
+    
+
+}
+#allmain{
+    display: flex;
+}
+
+#main2{
+    margin-left: 300px;
+}
+button{
+    justify-content: space-between;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: gray;
+}
+button:hover{
+    background-color: whitesmoke;
+}
+button>a{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    width: 50px;
+}
+
