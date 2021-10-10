@@ -1,10 +1,4 @@
-:root{
-    --clr-text-primary:#171A21;
-    --clr-text-secondary:#8d8d8d;
-    --clr-accent:#ffe91e;
-    --font-family:Heebo,sans-serif;
-  }
-*,*::after,*::before{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
@@ -30,7 +24,6 @@ body{
     background-repeat: no-repeat;
 }
 #header{
-    background:url("./imgs/bg.png");
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: bottom 100% left 10%;

@@ -1,9 +1,4 @@
-:root{
-    --clr-text-primary:#171A21;
-    --clr-text-secondary:#8d8d8d;
-    --font-family:Heebo,sans-serif;
-  }
-*,*::after,*::before{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
@@ -96,7 +91,7 @@ iframe:hover{
     justify-content: center;
     align-items: center;
     gap:0.5rem;
-    padding: 1.5rem 0;
+    padding: 2.4rem 0;
     background:grey;
     
 }
