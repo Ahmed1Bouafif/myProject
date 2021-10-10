@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./register.css">
+    <link rel="stylesheet" href="./login.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myProject</title>
@@ -12,13 +12,11 @@
         <div id="form">
             <p>Login</p>
             <label for="fname">First name:</label>
-            <input type="text" id="fname" ><br><br>
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" ><br><br>
+            <input type="text" id="ffname" ><br><br>
             <label for="password">Password:</label>
-            <input type="text" id="password" ><br><br>
+            <input type="text" id="ppassword" ><br><br>
     
-            <button id="bob1" type="submit"><a href="home.html">Go In</a></button>
+            <button id="bob1" onclick="checkuser()" type="submit">Go In</button>
         </div>
     </form>
     <script
