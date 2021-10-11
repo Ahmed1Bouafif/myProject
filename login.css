@@ -60,7 +60,9 @@ button{
     height: 40px;
     border-radius: 15px;
     background-color: gold;
-    margin-left:350px 
+    margin-left:350px ;
+    font-weight: bolder;
+    font-size: x-large;
 }
 a{
     text-decoration: none;

@@ -101,33 +101,7 @@ iframe:hover{
     gap: 2rem;
 }
 .social-link{
-    font-size: 2rem;
-}
-form{
-    display: flex;
-    border: 2px solid var(--clr-text-primary);
-}
-
-#email,#email+button{
-    height: 2.5rem;
-    border: none;
-    font-family: var(--font-family);
-}
-#email{
-    width: 18.5rem;
-    padding-left: 1rem;
-}
-#email+button{
-    width: 2.5rem;
-    font-weight: bold;
-    background: var(--clr-text-primary);
-    color: #fff;
-    transition: color .5s ease;
-    transition: background-color .5s ease;
-}
-#email+button:hover{
-    background: transparent;
-    color: var(--clr-text-primary);
+    font-size: 4.3rem;
 }
 .desc{
     letter-spacing: 5px;

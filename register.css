@@ -56,12 +56,19 @@ p{
 
 
 button{
-    width: 200px;
+    width: 230px;
     height: 40px;
     border-radius: 15px;
     background-color: gold;
-    margin-left:350px 
+    margin-left:350px ;
+    font-weight: bolder;
+    font-size: large;
 }
 a{
     text-decoration: none;
+}
+
+#account{
+    margin-left: 0px;
+    
 }
